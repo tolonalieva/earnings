@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+}
+.card-img{
+    max-width: 600%;
+    display: block;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #fae853;
+    border-radius: 25px;
+    transition: 5s;
+}
+.btn:hover{
+    transition: 5s;
+    background-color: #fae853;
+}
+.link{
+    padding: 20px 15px;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+.link:hover{
+    border: 1px solid transparent;
+    color: red;
+}
+.title{
+    padding: 30px 0;
+    text-align: center;
+}
+.block{
+    border-top: solid rgb(226, 222, 222);
+    border-bottom: solid rgb(226, 219, 219);
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.services-block {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.services-title{
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.services-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.services-card{
+    max-width: 300px;
+    border: 1px solid #ffc700;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+.services-card:hover{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    transition: 2s;
+}
+.services-text{
+   padding-top: 70px;
+}
+.services-img1{
+    background: url(../img/heard.png) no-repeat 50% 0;
+}
+.services-img2{
+    background: url(../img/temir.png)  no-repeat 50% 0;
+}
+.services-img3{
+    background: url(../img/message.png) no-repeat 50% 0; 
+}
+.services-img4{
+    background: url(../img/boys.png)  no-repeat 50% 0%;
+}
+.services-img5{
+    background: url(../img/boyss1.png) no-repeat 50% 0%;
+}
+.services-img6{
+    background: url(../img/boyss1.png) no-repeat 50% 0%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.price{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 351px;
+    border: 0.5px solid #AAB4FF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    padding-bottom: 92px;
+    transition: 1s;
+}
+.col:hover .col-day{
+    background-color: #FDF160;
+    color: #000;
+    
+}
+.col-day{
+    font-size: 36px;
+    background-color: #AAB4FF;
+    color: #fff;
+    padding: 25px 0;
+    border-radius: 50px 50px 0 0;
+    margin-bottom: 85px;
+}
+.col h3{
+    color: #5569FF;
+    font-size: 36px;
+    margin-bottom: 32px;
+    transition: 1s;
+}
+.col:hover h3{
+    color: #FDF160;
+}
+.col-text{
+    color: rgba(0, 0, 0, 0.48);
+    line-height: 34px;
+    margin-bottom: 74px;
+    transition: 1s;
+}
+.col-btn{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 60px;
+    background: #AAB4FF;
+    border-radius: 75px;
+    transition: 1s;
+}
+.col:hover .col-btn{
+    background-color: #FDF160;
+    color: #000;
+}
+
